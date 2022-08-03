@@ -29,6 +29,9 @@ int main()
 
 
     case '/':
+    if (num2!=0);
+    else  printf("impossible de diviser sur 0\n");
+    
         result = num1/num2;
         printf("%f",result);
         break;
