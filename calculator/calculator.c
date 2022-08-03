@@ -1,4 +1,5 @@
-#include<stdio.h>  
+#include<stdio.h>
+#include<stdlib.h>  
 int main()  
 {
     float num1,num2,result;
@@ -7,9 +8,16 @@ int main()
     printf("Enter the First number\n");
     scanf("%f", &num1);
 
+
+
+
     printf("Enter the operator\n");
     scanf("%s", &op);
-
+ if (op=='q')
+ {
+ exit (0);
+ }
+ else
     printf("Enter the Second number\n");
     scanf("%f", &num2);
 
@@ -41,6 +49,7 @@ int main()
         result = num1*num2;
         printf("%f",result);
         break;
+
 
     default:
     printf("the operator is not valid");
