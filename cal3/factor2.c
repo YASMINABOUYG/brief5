@@ -11,7 +11,7 @@ int main()
     scanf("%d",&num);//get input from user
     printf("Factorial of %d is: %d",num,factorial(num));
            //call the factorial function to display
-getch();
+ getch();
     return 0;
 }
 int factorial(int num){  //create function to find factorial
