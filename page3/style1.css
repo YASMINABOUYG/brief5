@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+}
+.test{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-top: 240px; */
+    /* position:fixed; */
+    margin-left: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: url('./Assets/png/Merged\ bar-57.png') no-repeat;
+    align-items: center;
+    background-size: cover;
+    top:0;
+    /* position: fixed;  */
+    width: 100%;
+    z-index: 0;
+}
+.navbarLogo{
+    padding-left: 1.5em;
+}
+.navbarList{
+    padding-right: 1.5em;
+   
+}
+.navbarListLink{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 1em;
+    font-weight: bold;
+    color: black;
+}
+.Lang{
+    border: 1px solid orange;
+    padding: 0.5em;
+    border-radius:15px ;
+}
+.yellowBar{
+    background-color: rgb(255, 200, 0);
+    top: 80px;
+    /* position: fixed; */
+    width: 100%;
+    /* padding-top: 800px; */
+    
+}
+.Description{
+    padding: 10px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 114, 115);
+    font-weight: 600;
+    width: 41em;
+    margin: auto;
+    text-align: center;
+}
+.titleHeading{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.butn {
+    border-radius: 5px;
+    box-shadow: 0 0 4px #666666;
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background: #0d59b6;
+    padding: 16px 30px 17px 30px; 
+    text-decoration: none;
+    width: 50%;
+    height: 1em;
+    padding-bottom: 2em;
+}
+  .paratest{
+    margin-left: 40px;
+    text-align: center;
+    padding-bottom: 15px;
+
+
+  }
+  .title{
+    color: #0d59b6;
+  }
+  .details{
+    padding-bottom: 20px;
+  }
+  .title-question{
+    color: #0d59b6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* position: fixed; */
+    
+  }
+  .symptome{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    width:600px;
+    margin:0 auto;
+    padding-bottom: 30px;
+
+  }
+  .phrase-blue{
+    color: white;
+    background-color:  rgb(45, 102, 209);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 1em;
+
+}
+  .two-sides{
+    background-color: rgb(45, 102, 209);
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 6em;
+   
+}
+.title-left{
+    color: black;
+}
+.left-side{
+    width: 100em;
+    line-height: 1.5em;
+    color: white;
+    /* padding: 3%; */
+}
+.conseils{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ .right-side{
+    line-height: 3em;
+   /* padding-left: 3%;
+    padding: 7%; */
+    color:yellow;
+    text-align: center;
+    /* padding-bottom: 1em; */
+} 
+.button{
+    color: #0d59b6;
+}
+.numéro{
+    font-size: 20px;
+    background-color: rgb(119, 127, 10);
+    color: rgb(24, 79, 127);
+    padding: 9px;
+    width: 10em;
+}
+.lien{
+    color:yellow;
+}
+.title-right{
+    color: yellow;
+    padding-bottom: 20px;
+}
+.littleBar{
+    background-color: #69a9f8;
+    text-align: center;
+}
+.butn1{
+    border-radius: 5px;
+    box-shadow: 0 0 4px #666666;
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background: #0d59b6;
+    padding: 16px 30px 17px 30px; 
+    text-decoration: none;
+    width: 25%;
+    height: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+.imgBar{
+    margin: auto;
+    display: block;
+    padding-bottom: 1em;
+    
+}
+.titleBar{
+    color: #0b3f7e;
+    padding-bottom: 1em;
+}
+.Logo{
+    padding-left: 47%;
+}
+.leftbar{
+    display:inline-flex;
+    flex-direction: column;
+}
+.bottombar{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3em 3em;
+}
+.centerbar{
+    text-align: center;
+}
+.title-center{
+    color: #0b3f7e;
+}
+.numero2{
+    color: green;
+}
+.Rang{
+    border: 1px solid orange;
+    /* padding: 0.5em; */
+     border-radius:15px ; 
+
+}
+.firs{
+    display: flex;
+    justify-content: space-around;
+}
+.bleu{
+    background-color: #0d59b6;
+height: 30px;
+}
