@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:url(img_freepik_com-programming-code-abstract-technology-background-software-developer-computer-script_34663-31.png)no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.container{
+    background-color: rgb(3, 3, 3);
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0);
+    width:400px ;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: 750px;
+    margin-top: 30px;
+
+}
+.header{
+    background-color: #126085;
+    padding: 10px 30px;
+    border-bottom: 1px solid #e3dee3;
+    text-align: center;
+    font-size: larger;
+}
+.header h2{
+    margin: 0;
+}
+.form{
+    padding: 10px 30px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+.form-control input{
+    border: 2px solid #e3dee3;
+    border-radius: 4px;
+    display: block;
+    width:100%;
+    padding: 10px;
+    font-size: 13px;
+
+}
+.form-control select{
+    border: 2px solid #e3dee3;
+    border-radius: 4px;
+    display: block;
+    width:100%;
+    padding: 10px;
+    font-size: 13px;
+
+}
+.form-control.success input{
+    border-color: rgb(80, 237, 132);
+}
+.form-control.error input{
+    border-color: rgb(235, 27, 27);
+}
+.form-control i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    /* visibility: hidden; */
+
+}
+.form-control.error small{
+    visibility: visible;
+    color: rgb(235, 27, 27) ;
+
+
+}
+
+.form-control small{
+     position: absolute;
+    visibility: hidden;
+    left: 0;
+    /* bottom: 0; */
+}
+.form button{
+    background-color: #3372a2;
+    border: 2px solid rgb(255, 255, 255) ;
+    color: rgb(27, 91, 136);
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.form button:hover{
+    background-color: #7891a9;
+}
+.subtitle{
+    color: #6f6c6f;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
